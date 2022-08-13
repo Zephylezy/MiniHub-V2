@@ -1,0 +1,98 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("MIniHub V2", "Midnight")
+
+-- Tabs
+
+local Tab1 = Window:NewTab("Scripts")
+local Tab1Section = Tab1:NewSection("Credits: mody#7541")
+local Tab1Section = Tab1:NewSection("Helpers: Zephyl#5717")
+-- Buttons/Windows/Idk
+
+Tab1Section:NewButton("Inf Jumps", "Enables Inf Jumps", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab1Section:NewToggle("Fov", "Changes Fov", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+Tab1Section:NewSlider("Speed", "Sussy Speed", 260, 120, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+Tab1Section:NewButton("Jn 2.0", "o", function()
+    loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1002510858917773352/1002895558790361158/untitled.txt"))()
+end)
+
+Tab1Section:NewButton("Jn 10v", "o", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/Jng10"),true))()
+end)
+
+Tab1Section:NewButton("Jn v9", "o", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/YourLocalNzi/Ye/main/Jn_V9.txt'),true))()
+end)
+
+Tab1Section:NewButton("suntari code is cypheriscool", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknownuser11736/abcd/main/suntaivsystem", true))()
+end)
+
+Tab1Section:NewButton("Future", "ok", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+Tab1Section:NewButton("Keyboard", "ok", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+Tab1Section:NewButton("Da Hood", "ok", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+Tab1Section:NewButton("softbed", "bedwars", function()
+    loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/947705523585835008/1005526028606775336/out.lua.txt",true))()
+end)
+
+Tab1Section:NewButton("Moonlight", "bedwars", function()
+    loadstring(game:HttpGet(("https://cdn.discordapp.com/attachments/980105264684478464/1002239072217092106/MoonLightBeta.txt"), true))()
+end)
+
+Tab1Section:NewButton("Vape", "bedwars", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Tab1Section:NewButton("Bloxfruit godly", "Bloxfruit", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/PysZxL5e'))()
+end)
+
+Tab1Section:NewButton(" Bloxfruit StringHub", "bloxfruit", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+
+Tab1Section:NewButton("Mm2", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+Tab1Section:NewButton("Tower of hell admin", "tower of hell", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+Tab1Section:NewButton("Jailbreak", "Jailbreak", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+end)
+
+tab1Section:NewButton("Survive and kill the killer Area 51", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Saktk-In-Area51/main/Area51", true))()
+end)
+
+Tab1Section:NewButton("Pet sim x", "psx", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
